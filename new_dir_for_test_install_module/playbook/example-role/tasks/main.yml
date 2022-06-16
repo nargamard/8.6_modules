@@ -1,0 +1,6 @@
+---
+# tasks file for example-role
+- name: Test role for test module
+  make_file:
+    path: "{{ path }}"
+    content: "{{ content }}"
